@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja{
+    background-color: chartreuse;
+    height: 25vh;
+    width: 25vw;
+    border: 10px solid green;
+}
