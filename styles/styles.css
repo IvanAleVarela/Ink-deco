@@ -153,41 +153,14 @@ p{
 
 @media (min-width 375px) and (max-width 767px){
     
-    .header{
-        display: flex;
-        flex-direction: row;
-
-    }
+    
+    
 
     main{
         display: flex;
         flex-direction: row;
     }
-    
 
-    .logo{
-
-    height: 30vh;
-    width: 15vw;
-    border-radius: 20%;
-    display: flex;
-    margin: auto;
-    }
-
-    .ideas-dormitorio{
-    height: 35vh;
-    width: 35vw;
-}
-
-.ideas-living{  
-    height: 35vh;
-    width: 35vw;
-}
-
-.ideas-baño{
-    height: 35vh;
-    width: 35vw;
-}
 
 
 
