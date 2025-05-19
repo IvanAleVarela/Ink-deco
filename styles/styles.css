@@ -35,7 +35,11 @@ body{
     grid-column: 1 / 4;
     grid-row: 3 / 4 ;
     display: grid;
-    
+    }
+
+.rrss{
+    height: 6vh;
+    width: 3vw;
     
 }
 
@@ -77,23 +81,13 @@ li{
     
 }
 
-.rrss{
-    height: 6vh;
-    width: 3vw;
-    
-}
-.Carrusel{
-    height: 120vh;
-    width: 60vw;
-    display: grid;
-    margin: auto;
-}
+
 
 .equipo{
-    width: 40vw;
+    width: 30vw;
     margin: auto;
     max-width: 100%;
-    width: 100%;
+    width: 60vw;
     height: auto;
     display: block;
     
@@ -104,25 +98,25 @@ li{
     justify-content: space-around;
 }
 .ideas-dormitorio{
-    height: 70vh;
+    height: 20vw;
     max-width: 100%;
-    width: 100%;
+    width: 40VW;
     height: auto;
     display: block;
 }
 
 .ideas-living{  
-    height: 70vh;
+    height: 20vw;
     max-width: 100%;
-    width: 100%;
+    width: 40VW;
     height: auto;
     display: block;
 }
 
 .ideas-baño{
-    height: 70vh;
+    height: 20vw;
     max-width: 100%;
-    width: 100%;
+    width: 40VW;
     height: auto;
     display: block;
 }
@@ -156,7 +150,9 @@ p{
 
 .imagen-tienda{
     height: 40vh;
+    max-width: 100%;
     width: 20vw;
+    margin: 10%;
 }
 
 .carousel-inner{
@@ -196,8 +192,16 @@ p{
     max-width: 150px;
     width: 100%;
     height: auto
+    }
 
-    
+    .rrss {
+    max-width: 15px;
+    width: 10%;
+    height: auto
+    }
+
+    .footer {
+    justify-content: center;
 
     }
 
