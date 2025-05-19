@@ -52,6 +52,9 @@ h1{
     text-align: center;
     font-size: 300%;
     font-weight: 150;
+    margin: 0 auto;             
+    max-width: 90%
+    
 
 
 }
@@ -65,11 +68,12 @@ li{
 
 .logo{
 
-    height: 30vh;
+    height: auto;
     width: 15vw;
     border-radius: 50%;
     display: flex;
     margin: auto;
+    max-width: 100%;
     
 }
 
@@ -86,10 +90,12 @@ li{
 }
 
 .equipo{
-    height: 80vh;
     width: 40vw;
-    display: flex;
     margin: auto;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
     
 }
 .ideas-productos{
@@ -99,17 +105,26 @@ li{
 }
 .ideas-dormitorio{
     height: 70vh;
-    width: 35vw;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .ideas-living{  
     height: 70vh;
-    width: 35vw;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .ideas-baño{
     height: 70vh;
-    width: 35vw;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 
@@ -151,28 +166,45 @@ p{
     margin: auto;
 }
 
-@media (min-width 375px) and (max-width 767px){
-    
-    
-    
+@media (min-width: 375px) and (max-width: 767px) {
+        
 
     main{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ideas-baño {
+    width: 80%; 
+    margin: 0 auto; 
+    }
+    .ideas-dormitorio {
+    width: 80%; 
+    margin: 0 auto; 
+    }
+    .ideas-living {
+    width: 80%; 
+    margin: 0 auto; 
     }
     
-    .ideas-baño{
-        max-width: 100%;
-    height: auto;
-    display: block;
-    }
+    .logo {
+    max-width: 150px;
+    width: 100%;
+    height: auto
+
+    
 
     }
 
 
 
 
-    }
+    
 
 
 
