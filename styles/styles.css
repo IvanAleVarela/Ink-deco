@@ -160,6 +160,14 @@ p{
         display: flex;
         flex-direction: row;
     }
+    
+    .ideas-baño{
+        max-width: 100%;
+    height: auto;
+    display: block;
+    }
+
+    }
 
 
 
