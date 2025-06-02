@@ -1,0 +1,26 @@
+    main{
+    @include estilo-main; 
+    }
+    .productos{    
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .imagen-tienda{
+        height: 40vh;
+        max-width: 100%;
+        width: 20vw;
+        margin: 10%;
+    }
+    @include mobile{
+        main{
+            display: flex;
+            flex-direction: column;
+        }
+        .imagen-tienda{
+        max-width: 80%;
+        height: auto;
+        display: grid;
+        margin: 10 auto;
+        }
+    }

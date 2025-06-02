@@ -1,0 +1,29 @@
+main{
+    @include estilo-main;
+    button{
+        padding: 10px 20px;
+        background-color: black;
+        color: $color-boton;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        margin: 5px;
+        justify-content: right;
+    }
+    .boton-enviar{
+        text-align: right;
+    }
+    button:hover {
+        background-color: #333;
+    }
+    iframe{
+        margin: 10px;
+    }    
+    @include mobile{
+        main{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

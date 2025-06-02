@@ -1,0 +1,33 @@
+main{
+    @include estilo-main; 
+    .nosotros{
+        width: 30vw;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+        display: flex;
+    }
+    .nosotros{
+        animation: nosotros 2s ease;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes nosotros{
+        0%{
+            scale: 0.5;
+        }
+        100%{
+            scale: 1;
+        }
+    }
+        @include mobile{
+            main{
+            display: flex;
+            flex-direction: column;
+            }
+            .nosotros{
+            width: 80%; 
+            margin: 10 auto; 
+            }
+        }
+    }

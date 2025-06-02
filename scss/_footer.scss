@@ -1,0 +1,23 @@
+footer{
+    .derechos-reservados{
+    text-align: left;
+    margin: 0.5%;
+    }
+    .rrss{
+    height: auto;
+    width: 3vw;
+    margin: 0.5%;
+    }
+    @include mobile{
+        justify-content: center;
+        .rrss{
+            max-width: 15px;
+            width: auto
+        }
+        .derechos-reservados{
+            display: flex;
+            width: auto
+        }
+    }
+}
+

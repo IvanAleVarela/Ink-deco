@@ -1,0 +1,23 @@
+header{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2 ;
+    display: grid;
+    .logo{
+        height: auto;
+        width: 15vw;
+        border-radius: 50%;
+        display: flex;
+        margin: 0.5% auto;
+        max-width: 100%;
+    }
+    @include mobile{
+        display: flex;
+        flex-direction: column;
+        .logo{
+            max-width: 150px;
+            width: 100%;
+            height: auto;
+        }
+    }    
+}
+

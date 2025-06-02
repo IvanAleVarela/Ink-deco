@@ -1,0 +1,39 @@
+main{
+    @include estilo-main; 
+    .ideas-productos{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .ideas-imagen{
+        max-width: 100%;
+        width: 60vh;
+        height: auto;
+        display: block;
+    }
+    .ideas-imagen{
+        animation: ideas-imagen 2s ease;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes ideas-imagen{
+        0%{
+            scale: 0.5;
+        }
+        100%{
+            scale: 1;
+        }
+    }
+    
+    
+    }
+    @include mobile{
+        main{
+            display: flex;
+            flex-direction: column;
+        }
+        .ideas-imagen{
+            width: 80%; 
+            margin: 10 auto; 
+        }
+    }
