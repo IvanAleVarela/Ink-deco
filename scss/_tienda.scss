@@ -1,16 +1,17 @@
     main{
     @include estilo-main; 
-    }
+    
     .productos{    
-        display: flex;
+        display: block;
         flex-flow: row wrap;
         justify-content: space-around;
+        margin: 0 auto;
     }
     .imagen-tienda{
-        height: 40vh;
+        height: auto;
         max-width: 100%;
-        width: 20vw;
-        margin: 10%;
+        width: 10vw;
+        
     }
     @include mobile{
         main{
@@ -24,3 +25,4 @@
         margin: 10 auto;
         }
     }
+}
